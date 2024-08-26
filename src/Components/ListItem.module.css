@@ -1,0 +1,23 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+span {
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnDelete {
+  stroke: #a61e4d;
+  width: 3rem;
+}
+
+.btnTick {
+  color: #a61e4d;
+  width: 3rem;
+}

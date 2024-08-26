@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  padding: 4rem 5rem 0rem 7rem;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+span {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.button {
+  padding: 0;
+}
+/* 
+.icon {
+  height: 0.7rem;
+  width: 0.7rem;
+} */

@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  gap: 2rem;
+}
+
+input {
+  border-radius: 1rem;
+  width: 50rem;
+  font-size: 3rem;
+  background: none;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+input::placeholder {
+  color: #9999997a;
+}
+
+label {
+  font-size: 4rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  color: inherit;
+}
